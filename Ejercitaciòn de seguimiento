@@ -1,0 +1,18 @@
+#Solicitar al usuario su edad si es mayor o igaul a 18 imprime "eres mayor de edad" sino "eres menor de edad"
+
+edad = int(input("ingrese su edad:  "))
+if edad>= 18:
+    print("Eres mayor de edad")
+else: 
+    print("Eres menor de edad")
+
+#Pide al useario un numero entero. Determina si el numero es positivo, negativo o cero 
+#y muestra el  mensaje correspondiente
+
+numero= int(input("Ingrese un numero:"))
+if numero >0:
+    print("El numero es positivo")
+elif numero <0:
+    print("El numero es negativo")
+elif numero == 0: 
+    print ("El numero es cero")
